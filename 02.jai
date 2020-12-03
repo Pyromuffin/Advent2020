@@ -18,13 +18,11 @@ main :: ()
     for i : numbers
         for j : numbers
             for k : numbers
-        {
-            if (i + j + k) == 2020
-            {
-                print("i: %, j: %, k: %,  i * j * k: %", i, j, k, i * j * k); // 212428694
-            }
+                if (i + j + k) == 2020
+                {
+                    print("i: %, j: %, k: %,  i * j * k: %", i, j, k, i * j * k); // 212428694
+                }
 
-        }
 
 }
 
